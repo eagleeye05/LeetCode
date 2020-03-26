@@ -18,12 +18,18 @@
 |  75  |          颜色分类          |          [O](Solution/75.分类颜色.md)           | Medium |     数组 \| 排序     |
 |  77  |    1~K中所有K个数的组合    |    [O](Solution/77.1~K中所有K个数的组合.md)     | Medium |         组合         |
 |  88  |      合并两个有序数组      |      [O](Solution/88.合并两个有序数组.md)       |  Easy  |         数组         |
+| 121  |     买卖股票的最佳时机     |     [O](Solution/121.买卖股票的最佳时机.md)     |  Easy  |     数组 \| 贪心     |
+| 122  |    买卖股票的最佳时机II    |    [O](Solution/122.买卖股票的最佳时机II.md)    |  Easy  |     数组 \| 贪心     |
+| 123  |   买卖股票的最佳时机III    |   [O](Solution/123.买卖股票的最佳时机III.md)    |  Hard  |   数组 \| 动态规划   |
 | 128  |        最长连续序列        |        [O](Solution/128.最长连续序列.md)        |  Hard  |        哈希表        |
+| 134  |           加油站           |           [O](Solution/134.加油站.md)           | Medium |       贪心算法       |
 | 136  |      只出现1次的数字       |      [O](Solution/136.只出现1次的数字.md)       |  Easy  |    数组 \| 位运算    |
 | 152  |       乘积最大子序列       |       [O](Solution/152.乘积最大子序列.md)       | Medium |   数组 \| 动态规划   |
 | 162  |          寻找峰值          |  [O](Solution/162.查找数组中任一峰值的下标.md)  | Medium |   数组 \| 二分查找   |
 | 179  |           最大数           |           [O](Solution/179.最大数.md)           | Medium |         排序         |
+| 188  |    买卖股票的最佳时机IV    |    [O](Solution/188.买卖股票的最佳时机IV.md)    |  Hard  |   数组 \| 动态规划   |
 | 189  |          旋转数组          |          [O](Solution/189.旋转数组.md)          |  Easy  |         数组         |
+| 198  |          打家劫舍          |          [O](Solution/198.打家劫舍.md)          |  Easy  |       动态规划       |
 | 217  |        存在重复元素        |        [O](Solution/217.存在重复元素.md)        |  Easy  |    数组 \| 哈希表    |
 | 268  |      0-n中缺失的数字       |      [O](Solution/268.0-n中缺失的数字.md)       |  Easy  |        位运算        |
 | 283  |           移动零           |           [O](Solution/283.移动零.md)           |  Easy  |         数组         |
@@ -35,6 +41,7 @@
 | 347  |       前K个高频元素        |       [O](Solution/347.前K个高频元素.md)        | Medium |         数组         |
 | 350  |      两个数组的交集II      |      [O](Solution/350.两个数组的交集II.md)      |  Easy  |     哈希 \| 归并     |
 | 378  |   有序矩阵中第K小的元素    |                                                 |        |        待完成        |
+| 384  |          打乱数组          |          [O](Solution/384.打乱数组.md)          | Medium |        随机数        |
 | 454  |        四数相加 II         |         [O](Solution/454.四数相加II.md)         | Medium |    数组 \| 哈希表    |
 
 > 部分解答参考自：https://github.com/grandyang/leetcode
