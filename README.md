@@ -14,9 +14,11 @@
 |   46   |           全排序           |           [O](Solution/46.全排序.md)            | Medium |    数组 \| 全排序    |
 |   47   |         全排列 II          |          [O](Solution/47.全排列II.md)           | Medium |    数组 \| 全排序    |
 |   48   |          旋转图形          |          [O](Solution/48.旋转图形.md)           | Medium |         数组         |
+|   49   |       字母异位词分组       |       [O](Solution/49.字母异位词分组.md)        | Medium |         数组         |
 |   51   |           N皇后            |            [O](Solution/51.N皇后.md)            |  Hard  |    数组 \| 全排列    |
 |   52   |          N皇后 II          |           [O](Solution/52.N皇后II.md)           |  Hard  |    数组 \| 全排列    |
 |   60   |         第K个排列          |         [O](Solution/60.第K个排列I.md)          | Medium |    数组 \| 全排列    |
+|   71   |          简化路径          |          [O](Solution/71.简化路径.md)           | Medium |     栈 \| 字符串     |
 |   73   |          矩阵置零          |          [O](Solution/73.矩阵置零.md)           | Medium |         数组         |
 |   75   |          颜色分类          |          [O](Solution/75.分类颜色.md)           | Medium |     数组 \| 排序     |
 |   77   |    1~K中所有K个数的组合    |    [O](Solution/77.1~K中所有K个数的组合.md)     | Medium |         组合         |
@@ -35,6 +37,7 @@
 |  198   |          打家劫舍          |          [O](Solution/198.打家劫舍.md)          |  Easy  |       动态规划       |
 |  213   |         打家劫舍II         |         [O](Solution/213.打家劫舍II.md)         | Medium |         数组         |
 |  217   |        存在重复元素        |        [O](Solution/217.存在重复元素.md)        |  Easy  |    数组 \| 哈希表    |
+|  242   |      有效的字母异位词      |      [O](Solution/242.有效的字母异位词.md)      |  Easy  |         哈希         |
 |  268   |      0-n中缺失的数字       |      [O](Solution/268.0-n中缺失的数字.md)       |  Easy  |        位运算        |
 |  283   |           移动零           |           [O](Solution/283.移动零.md)           |  Easy  |         数组         |
 |  287   |     寻找数组中重复的数     |     [O](Solution/287.寻找数组中重复的数.md)     | Medium |   数组 \| 二分查找   |
@@ -45,6 +48,7 @@
 |  324   |         摆动排序II         |         [O](Solution/324.摆动排序II.md)         | Medium |     数组 \| 排序     |
 |  334   |      递增的三元子序列      |      [O](Solution/334.递增的三元子序列.md)      | Medium | 动态规划 \| 二分查找 |
 |  337   |        打家劫舍III         |        [O](Solution/337.打家劫舍III.md)         | Medium |          树          |
+|  344   |         反转字符串         |         [O](Solution/344.反转字符串.md)         | Medium |        字符串        |
 |  347   |       前K个高频元素        |       [O](Solution/347.前K个高频元素.md)        | Medium |         数组         |
 |  350   |      两个数组的交集II      |      [O](Solution/350.两个数组的交集II.md)      |  Easy  |     哈希 \| 归并     |
 |  378   |   有序矩阵中第K小的元素    |   [O](Solution/378.有序矩阵中第K小的元素.md)    | Medium | 优先队列 \| 二分查找 |
