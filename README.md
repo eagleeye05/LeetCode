@@ -35,6 +35,8 @@
 |  188   |    买卖股票的最佳时机IV    |    [O](Solution/188.买卖股票的最佳时机IV.md)    |  Hard  |   数组 \| 动态规划   |
 |  189   |          旋转数组          |          [O](Solution/189.旋转数组.md)          |  Easy  |         数组         |
 |  198   |          打家劫舍          |          [O](Solution/198.打家劫舍.md)          |  Easy  |       动态规划       |
+|  208   |         实现前缀树         |         [O](Solution/208.实现前缀树.md)         | Medium |      树 \| 哈希      |
+|  212   |         单词搜索II         |         [O](Solution/212.单词搜索II.md)         |  Hard  |    DFS \| 字典树     |
 |  213   |         打家劫舍II         |         [O](Solution/213.打家劫舍II.md)         | Medium |         数组         |
 |  217   |        存在重复元素        |        [O](Solution/217.存在重复元素.md)        |  Easy  |    数组 \| 哈希表    |
 |  242   |      有效的字母异位词      |      [O](Solution/242.有效的字母异位词.md)      |  Easy  |         哈希         |
