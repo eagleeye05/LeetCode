@@ -27,6 +27,7 @@
 |      51      |            N皇后            |               [O](Solution/51.N皇后.md)                |  Hard  |    数组 \| 全排列     |
 |      52      |          N皇后 II           |              [O](Solution/52.N皇后II.md)               |  Hard  |    数组 \| 全排列     |
 |      60      |          第K个排列          |             [O](Solution/60.第K个排列I.md)             | Medium |    数组 \| 全排列     |
+|      61      |          旋转链表           |              [O](Solution/61.旋转链表.md)              | Medium |         链表          |
 |      71      |          简化路径           |              [O](Solution/71.简化路径.md)              | Medium |     栈 \| 字符串      |
 |      73      |          矩阵置零           |              [O](Solution/73.矩阵置零.md)              | Medium |         数组          |
 |      75      |          颜色分类           |              [O](Solution/75.分类颜色.md)              | Medium |     数组 \| 排序      |
