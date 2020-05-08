@@ -1,0 +1,59 @@
+## 两个字符串的最长公共子串
+
+[OJ链接](https://www.lintcode.com/problem/longest-common-substring/description)
+
+给出2个字符串，找出它们的最长公共子串，返回其长度
+
+例子：
+
+- Given A = `"ABCD"`, B = `"CBCE"`, return 2
+
+> 子串和子序列的不同在于：子串连续，子序列可以不连续
+
+对于字符串序列`X`和`Y`，设`state[i,j]`表示以`X[i]`和`Y[j]`开头的最长公共子串。从`X`和`Y`的起始字符分析：
+
+- 如果起始字符相同，那么`state[0,0] = 1 + state[1,1]`
+- 如果起始字符不同，那么`state[0,0] = 0`
+
+因此，创建一个二维矩阵，可以求出所有`state[i][j]`的值，最长公共子串就是其中最大的一个
+
+- 时间复杂度：`O(n * m)`
+- 空间复杂度：`O(n * m)`
+
+> 也可以从结尾字符开始分析；最终结果取决于每一个`state[i][j]`，所以这里不能用状态压缩
+
+```C++
+class Solution {
+public:
+    /**
+     * @param A: A string
+     * @param B: A string
+     * @return: the length of the longest common substring.
+     */
+    int longestCommonSubstring(string &A, string &B) {
+        // write your code here
+        if(A == "" || B == "")  return 0;
+        int len1 = A.length();
+        int len2 = B.length();
+        vector<vector<int> > state(len1,vector<int>(len2,0));
+        //可以与下面合并
+        state[len1 - 1][len2 - 1] = A[len1 - 1] == B[len2 - 1] ? 1 : 0;
+        //DP
+        for(int i = len1 - 2;i >=0;i--) //最后一列
+            state[i][len2 - 1] = A[i] == B[len2 - 1] ? 1 : 0;
+        for(int j = len2 - 2;j >=0;j--) //最后一行
+            state[len1 - 1][j] = A[len1 - 1] == B[j] ? 1 : 0;
+        for(int i = len1 - 2;i >= 0;i--)
+            for(int j = len2 - 2;j >= 0;j--)
+                state[i][j] = A[i] == B[j] ? 1 + state[i + 1][j + 1] : 0;
+                
+        int max = 0;
+        for(auto row : state)
+            for(int len : row)
+                if(len > max)
+                    max = len;
+        
+        return max;
+    }
+};
+```
