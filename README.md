@@ -13,6 +13,7 @@
 |      15      |          三数之和           |              [O](Solution/15.三数之和.md)              | Medium |    数组 \| 双指针     |
 |      18      |          四数之和           |              [O](Solution/18.四数之和.md)              | Medium |    数组 \| 双指针     |
 |      19      |   删除链表的倒数第N个节点   |      [O](Solution/19.删除链表的倒数第N个节点.md)       | Medium |         链表          |
+|      23      |       合并K个排序链表       |          [O](Solution/23.合并K个排序链表.md)           |  Hard  |      链表 \| 堆       |
 |      24      |    两两交换链表中的节点     |        [O](Solution/24.两两交换链表中的节点.md)        | Medium |         链表          |
 |      25      |       k个一组翻转链表       |          [O](Solution/25.k个一组翻转链表.md)           |  Hard  |         链表          |
 |      26      |   删除排序数组中重复的项    |       [O](Solution/26.删除排序数组中的重复项.md)       |  Easy  |    数组 \| 双指针     |
@@ -40,6 +41,10 @@
 |      88      |      合并两个有序数组       |          [O](Solution/88.合并两个有序数组.md)          |  Easy  |         数组          |
 |      90      |           子集II            |               [O](Solution/90.子集II.md)               | Medium |         数组          |
 |      91      |          解码方法           |              [O](Solution/91.解码方法.md)              | Medium |        字符串         |
+|      94      |      二叉树的中序遍历       |          [O](Solution/94.二叉树的中序遍历.md)          | Medium |          树           |
+|      98      |       验证二叉搜索树        |           [O](Solution/98.验证二叉搜索树.md)           | Medium |          树           |
+|     108      | 将有序数组转换为二叉搜索树  |    [O](Solution/108.将有序数组转换为二叉搜索树.md)     |  Easy  |          树           |
+|     109      |   有序链表转换二叉搜索树    |      [O](Solution/109.有序链表转换二叉搜索树.md)       | Medium |      树 \| 链表       |
 |     121      |     买卖股票的最佳时机      |        [O](Solution/121.买卖股票的最佳时机.md)         |  Easy  |     数组 \| 贪心      |
 |     122      |    买卖股票的最佳时机II     |       [O](Solution/122.买卖股票的最佳时机II.md)        |  Easy  |     数组 \| 贪心      |
 |     123      |    买卖股票的最佳时机III    |       [O](Solution/123.买卖股票的最佳时机III.md)       |  Hard  |   数组 \| 动态规划    |
