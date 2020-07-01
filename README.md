@@ -13,6 +13,7 @@
 |      15      |          三数之和           |              [O](Solution/15.三数之和.md)              | Medium |    数组 \| 双指针     |
 |      18      |          四数之和           |              [O](Solution/18.四数之和.md)              | Medium |    数组 \| 双指针     |
 |      19      |   删除链表的倒数第N个节点   |      [O](Solution/19.删除链表的倒数第N个节点.md)       | Medium |         链表          |
+|      20      |         有效的括号          |             [O](Solution/20.有效的括号.md)             |  Easy  |        字符串         |
 |      23      |       合并K个排序链表       |          [O](Solution/23.合并K个排序链表.md)           |  Hard  |      链表 \| 堆       |
 |      24      |    两两交换链表中的节点     |        [O](Solution/24.两两交换链表中的节点.md)        | Medium |         链表          |
 |      25      |       k个一组翻转链表       |          [O](Solution/25.k个一组翻转链表.md)           |  Hard  |         链表          |
@@ -21,16 +22,22 @@
 |      28      |        实现strStr()         |            [O](Solution/28.实现strStr().md)            |  Easy  |        字符串         |
 |      30      |   与所有单词相关联的字串    |       [O](Solution/30.与所有单词相关联的字串.md)       |  Hard  |         哈希          |
 |      31      |         下一个排列          |             [O](Solution/31.下一个排列.md)             | Medium |    数学 \| 全排列     |
+|      32      |        最长有效括号         |            [O](Solution/32.最长有效括号.md)            |  Hard  |          栈           |
 |      41      |       缺失第一个正数        |           [O](Solution/41.缺失第一个整数.md)           |  Hard  |     数组 \| 排序      |
 |      44      |         通配符匹配          |             [O](Solution/44.通配符匹配.md)             |  Hard  |  字符串 \| 动态规划   |
+|      45      |         跳跃游戏II          |             [O](Solution/45.跳跃游戏II.md)             |  Hard  |   数组 \| 贪心算法    |
 |      46      |           全排序            |               [O](Solution/46.全排序.md)               | Medium |    数组 \| 全排序     |
 |      47      |          全排列 II          |              [O](Solution/47.全排列II.md)              | Medium |    数组 \| 全排序     |
 |      48      |          旋转图形           |              [O](Solution/48.旋转图形.md)              | Medium |         数组          |
 |      49      |       字母异位词分组        |           [O](Solution/49.字母异位词分组.md)           | Medium |         数组          |
 |      51      |            N皇后            |               [O](Solution/51.N皇后.md)                |  Hard  |    数组 \| 全排列     |
 |      52      |          N皇后 II           |              [O](Solution/52.N皇后II.md)               |  Hard  |    数组 \| 全排列     |
+|      55      |          跳跃游戏           |              [O](Solution/55.跳跃游戏.md)              | Medium |   数组 \| 贪心算法    |
 |      60      |          第K个排列          |             [O](Solution/60.第K个排列I.md)             | Medium |    数组 \| 全排列     |
 |      61      |          旋转链表           |              [O](Solution/61.旋转链表.md)              | Medium |         链表          |
+|      62      |          不同路径           |              [O](Solution/62.不同路径.md)              | Medium |   数组 \| 动态规划    |
+|      63      |         不同路径 II         |             [O](Solution/63.不同路径II.md)             | Medium |   数组 \| 动态规划    |
+|      64      |        不同路径 III         |            [O](Solution/64.不同路径III.md)             | Medium |   数组 \| 动态规划    |
 |      71      |          简化路径           |              [O](Solution/71.简化路径.md)              | Medium |     栈 \| 字符串      |
 |      73      |          矩阵置零           |              [O](Solution/73.矩阵置零.md)              | Medium |         数组          |
 |      75      |          颜色分类           |              [O](Solution/75.分类颜色.md)              | Medium |     数组 \| 排序      |
@@ -53,6 +60,7 @@
 |     125      |         验证回文串          |            [O](Solution/125.验证回文串.md)             |  Easy  |        字符串         |
 |     127      |          单词接龙           |             [O](Solution/127.单词接龙.md)              | Medium |     字符串 \| BFS     |
 |     128      |        最长连续序列         |           [O](Solution/128.最长连续序列.md)            |  Hard  |        哈希表         |
+|     130      |        被围绕的区域         |           [O](Solution/130.被围绕的区域.md)            | Medium |       图 \| DFS       |
 |     131      |         分割回文串          |            [O](Solution/131.分割回文串.md)             | Medium | 字符串 \| 回溯 \| DFS |
 |     134      |           加油站            |              [O](Solution/134.加油站.md)               | Medium |       贪心算法        |
 |     136      |       只出现1次的数字       |          [O](Solution/136.只出现1次的数字.md)          |  Easy  |    数组 \| 位运算     |
@@ -66,7 +74,9 @@
 |     188      |    买卖股票的最佳时机IV     |       [O](Solution/188.买卖股票的最佳时机IV.md)        |  Hard  |   数组 \| 动态规划    |
 |     189      |          旋转数组           |             [O](Solution/189.旋转数组.md)              |  Easy  |         数组          |
 |     198      |          打家劫舍           |             [O](Solution/198.打家劫舍.md)              |  Easy  |       动态规划        |
+|     200      |         岛屿的个数          |            [O](Solution/200.岛屿的个数.md)             | Medium |          DFS          |
 |     203      |      删除链表中的节点       |         [O](Solution/203.删除链表中的节点.md)          |  Easy  |         链表          |
+|     207      |           课程表            |              [O](Solution/207.课程表.md)               | Medium |      图 \| 拓扑       |
 |     208      |         实现前缀树          |            [O](Solution/208.实现前缀树.md)             | Medium |      树 \| 哈希       |
 |     212      |         单词搜索II          |            [O](Solution/212.单词搜索II.md)             |  Hard  |     DFS \| 字典树     |
 |     213      |         打家劫舍II          |            [O](Solution/213.打家劫舍II.md)             | Medium |         数组          |
@@ -82,6 +92,7 @@
 |     322      |          零钱兑换           |             [O](Solution/322.零钱兑换.md)              | Medium |       动态规划        |
 |     324      |         摆动排序II          |            [O](Solution/324.摆动排序II.md)             | Medium |     数组 \| 排序      |
 |     328      |          奇偶链表           |             [O](Solution/328.奇偶链表.md)              | Medium |         链表          |
+|     329      |    矩阵中的最长递增路径     |       [O](Solution/329.矩阵中的最长递增路径.md)        |  Hard  |          DFS          |
 |     334      |      递增的三元子序列       |         [O](Solution/334.递增的三元子序列.md)          | Medium | 动态规划 \| 二分查找  |
 |     337      |         打家劫舍III         |            [O](Solution/337.打家劫舍III.md)            | Medium |          树           |
 |     344      |         反转字符串          |            [O](Solution/344.反转字符串.md)             | Medium |        字符串         |
@@ -91,6 +102,7 @@
 |     384      |          打乱数组           |             [O](Solution/384.打乱数组.md)              | Medium |        随机数         |
 |     395      | 至少有K个重复字符的最长子串 |    [O](Solution/395.至少有K个重复字符的最长子串.md)    | Medium |        字符串         |
 |     454      |         四数相加 II         |            [O](Solution/454.四数相加II.md)             | Medium |    数组 \| 哈希表     |
+|     695      |       岛屿的最大面积        |          [O](Solution/695.岛屿的最大面积.md)           |  Easy  |          DFS          |
 |     863      | 二叉树中所有距离为 K 的结点 |     [O](Solution/863.二叉树中所有距离为K的结点.md)     | Medium |  图 \| 广度优先遍历   |
 |    拼多多    |   装载货物的最少货车数量    |        [O](Solution/装载货物的最少货车数量.md)         | Medium |         贪心          |
 | Lintcode 77  | 两个字符串的最长公共子序列  | [O](Solution/LintCode77_两个字符串的最长公共子序列.md) | Medium |  动态规划 \| 字符串   |
